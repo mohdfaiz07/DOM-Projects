@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    text-transform: capitalize;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container>h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: rgb(189, 99, 240);
+    margin-bottom: 50px;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 30px 90px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+
+#pink{
+    background-color: pink;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#palegreen{
+    background-color: palegreen;
+
+}
+
+
+.container>h3{
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: rgb(63, 63, 63);
+    font-weight: 100;
+
+}
+
+
+
+@media only screen and (max-width : 600px){
+    h1{
+        font-size: 1.5em;
+    }
+
+    .btn{
+        padding: 20px 70px;
+        font-size: 1em;
+    }
+
+} 
+
