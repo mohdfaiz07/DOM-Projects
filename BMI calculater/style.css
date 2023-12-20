@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: lightcyan;
+    
+}
+
+.container h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: lightcoral;
+
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+form label{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+form input{
+    padding: 5px 40px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 35px;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+.weight_guide{
+    margin-top: 20px;
+}
+
+.weight_guide p{
+    padding: 10px;
+}
