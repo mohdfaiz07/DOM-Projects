@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .container{
+            height: 100%; 
+            width: 100%;
+            background-color: lightgreen;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }       
+        
+        #start-btn{
+            padding: 5px 35px;
+            font-size: 20px;
+            border-radius: 15px;
+            font-weight: 700;
+            background-color: black;
+            color: #fff;
+            border: 2px solid #fff;
+            cursor: pointer;
+        }
+
+        
+        #stop-btn{
+            padding: 5px 35px;
+            font-size: 20px;
+            border-radius: 15px;
+            font-weight: 700;                  
+            background-color: black;
+            color: #fff;
+            border: 2px solid #fff;
+            cursor: pointer;
+
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <button id="start-btn">Start</button>
+        <button id="stop-btn">Stop</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
